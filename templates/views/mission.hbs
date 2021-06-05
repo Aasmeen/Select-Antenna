@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mission & Vision</title>
+</head>
+<body>
+    {{>header}}
+    <header>
+        <h1>MISSION & VISION</h1>
+        <div class="selectan">
+            <a href="index">Select Antenna  </a> > Mission & Vision
+        </div>
+    </header>
+    <div class="bottom">
+        {{>left}}
+        <div class="right_b">
+            <h3>MISSION</h3>
+            <p id="para">Our mission is to be a strategically pioneered global organization in the aerospace industry by 
+                exceeding customer requirements through quality, reliability, advanced cutting edge technology 
+                and creative innovation.</p>
+            <h3 class="vision">VISION</h3>
+            <p>Our vision is ” to be a globally recognized enterprise in the aerospace industry. “</p>
+        </div>
+    </div>
+    <style>
+        .right_b h3
+        {
+            color:gray;
+            left:2%;
+            top:4%;
+            position: absolute;
+            margin:0px;
+            padding:0px;
+            display: inline-block;
+        }
+        .right_b #para
+        {
+            margin:0%;
+            padding-left:2%;
+            position: absolute;
+            top:5.5%;
+            color: rgb(138, 138, 138);
+        }
+        .right_b .vision
+        {
+            color:gray;
+            left:2%;
+            top:11%;
+            position: absolute;
+            margin:0px;
+            padding:0px;
+            display: inline-block;
+        }
+        .right_b p
+        {
+            color:grey;
+            padding-left:2%;
+        }
+    </style>
+{{>footer}}
+</body>
+</html>

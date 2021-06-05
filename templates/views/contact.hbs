@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+</head>
+<body>
+    {{>header}}
+    <header>
+        <h1>CONTACT US</h1>
+        <div class="selectan">
+            <a href="pg1.html">Select Antenna  </a> > Contact Us
+        </div>
+    </header>
+    <div class="bottom">
+        {{>left}}
+        <div class="right_b">
+            <h2>SELECT TELECOM PVT LTD.</h2>
+            <h3>NOIDA OFFICE: </h3>
+            <pre>F-340 SECTOR – 63
+NOIDA. (U.P).</pre>
+            <h3 class="delhi">DELHI OFFICE:</h3>
+            <pre class="pre">S- 543 SCHOOL BLOCK
+SHAKAR PUR, DELHI 110092
+M: 9811079067, 9899605979
+            </pre>
+            <div class="mail">
+                <h3>Email:</h3>
+                <a href="mailto:selecttel1020@gmail.com">selecttel1020@gmail.com,</a>
+                <a class="mail_link" href="mailto:sales@selectantenna.com">sales@selectantenna.com</a>
+            </div>
+            <form id="submit-feedback">
+                Your Name (required)<input type="text" name="name" autocomplete="off"/>
+                Your Email (required)<input id="email" type="text" name="email" autocomplete="off"/>
+                Phone Number<input type="text" name="phone" autocomplete="off"/>
+                Feedback<textarea id="text" cols="35" rows="10" name="feedback" autocomplete="off"></textarea>
+                <button class="submit">Send</button>
+                {{!-- <input type="submit" class="submit" id="submit-feedback" value="Send"/> --}}
+            </form>
+            <script src="/js/submit.js"></script>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>

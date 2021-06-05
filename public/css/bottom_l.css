@@ -1,0 +1,115 @@
+.bottom .left_b
+{
+    background-color: rgb(140,186,221);
+    display:inline-block;
+    width: 26%;
+    height:1200px;
+    margin:0px;
+    position: relative;
+    box-shadow:inset 0 15px 10px -10px;
+}
+.bottom .left_b .para
+{
+    left:10px;
+    font-size:15px;
+    display:inline;
+    position: absolute;
+    font-weight: 600;
+}
+.bottom .left_b .para:hover
+{
+    color:white;
+    cursor: pointer;
+}
+.bottom .left_b .para:before
+{
+    content:'';
+    width:250px;
+    height:2px;
+    background: rgb(38, 141, 134);
+    position: absolute;
+    top:200%;
+    left:0px;
+}
+.bottom .left_b .p1
+{
+    top:60px;
+    left:10px;
+    font-size:20px;
+    display:inline;
+    position: absolute;
+}
+.bottom .left_b .p1:before
+{
+    content:'';
+    width:80px;
+    height:3px;
+    background: rgb(38, 141, 134);
+    position: absolute;
+    top:130%;
+    left:0px;
+}
+.bottom .left_b .p2
+{
+    top:120px;
+}
+.bottom .left_b .p3
+{
+    top:180px;
+}
+.bottom .left_b .p4
+{
+    top:240px;
+}
+.bottom .left_b .p5
+{
+    top:300px;
+}
+.bottom .left_b .p6
+{
+    top:360px;
+}
+.bottom .left_b .p7
+{
+    top:420px;
+}
+.bottom .left_b .p8
+{
+    top:480px;
+}
+.bottom .left_b .p9
+{
+    top:540px;
+}
+.bottom .left_b .p10
+{
+    top:600px;
+}
+.bottom .left_b .p11
+{
+    top:660px;
+}
+.bottom .left_b .p12
+{
+    top:720px;
+}
+.bottom .left_b .p13
+{
+    top:780px;
+}
+.bottom .left_b .p14
+{
+    top:840px;
+}
+.bottom .left_b .p15
+{
+    top:900px;
+}
+.bottom .left_b .p16
+{
+    top:960px;
+}
+.bottom .left_b .p17
+{
+    top:1020px;
+}

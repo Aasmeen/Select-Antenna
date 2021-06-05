@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404-Page Not Found</title>
+</head>
+<body>
+    {{>header}}
+    <style>
+        header{
+            background-image: url("");
+            box-shadow: inset 0px 0px 0px,inset 0px 0px 0px,0px 0px 0px;
+        }
+        h1{
+            color:blue;
+        }
+        footer{
+            position:fixed;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            margin-bottom: 0px;
+        }
+        center{
+            padding-top: 5%;
+        }
+        #error{
+            height:140px;
+            width: 160px;
+        }
+        h1{
+            font-size:60px;
+            color:rgb(64, 189, 164);
+            padding: 10px 0px 0px 10px;
+            margin: auto;
+        }
+        h2{
+            font-size:20px;
+            color:rgb(129, 133, 132);
+            padding: 10px 0px 0px 10px;
+            margin: auto;
+        }
+        #b_home{
+            font-size: 18px;
+            padding: 18px 28px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            background-color:rgb(64, 189, 164) ;
+            color: white;
+            border-radius: 25px;
+        }
+        #b_home:hover{
+            background-color:white ;
+            color: rgb(64, 189, 164);
+            border: 2px solid;
+            border-color:rgb(64, 189, 164) ;
+        }
+    </style>
+    <hr size="2px" width="99%" color="black">
+    <center>
+        <img id="error" src="/image/error.png">
+        <h1>404 ERROR</h1>
+        <h2>This file may have been moved or deleted. Be sure to check your spelling.</h2>
+        <a id="b_home" title="Back to Home" href="/">Back to Home</a>
+    </center>
+    {{>footer}}
+</body>
+</html>

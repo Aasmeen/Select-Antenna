@@ -1,0 +1,258 @@
+body
+{
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    padding:0px;
+    margin: 0%;
+}
+
+.email
+{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid;
+    border-color: #EAEAEA;
+    padding-left: 14%;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+.email .mail
+{
+    height:10px;
+    box-sizing: border-box;
+}
+
+.email .mail_link
+{
+    text-decoration: none;
+    color:black;
+}
+
+nav
+{
+    height:85px;
+    background-color:white;
+    width:88%;
+    display: flex;
+    align-items: center;
+    padding-left:12%;
+}
+
+nav ul
+{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+nav ul li
+{
+    display:inline-block;
+    vertical-align: middle;
+    margin:0px;
+    padding:0px;
+    height:85px;
+}
+
+.select
+{
+    display: inline-block;
+    height:85px;
+    width:320px;
+}
+
+.menu
+{
+    font-size:15px;
+    margin-left:15%;
+}
+
+.menu a:hover
+{
+    color:rgb(64, 189, 164);
+}
+
+.menu ul li
+{
+    margin:0px;
+    padding:0px;
+}
+
+.menu li
+{
+    margin-left:20px;
+    margin-right:20px;
+    height:85px;
+    line-height:550%;
+} 
+
+.menu li a
+{
+    display: inline-block;
+    height:85px;
+    color:black;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu li a:before
+{
+    content:'';
+    width:0px;
+    height:3px;
+    background: rgb(68,187,180);
+    position: absolute;
+    top:0%;
+    left:50%;
+    transition: 0.3s;
+    mix-blend-mode: normal;
+}
+
+.menu li a:after
+{
+    content:'';
+    width:0px;
+    height:3px;
+    background: rgb(68,187,180);
+    position: absolute;
+    top:0%;
+    right:50%;
+    transition: 0.3s;
+    mix-blend-mode: normal;
+}
+
+.menu li:hover a:before
+{
+    width:60%;
+    transform:translateX(-100%);
+}
+
+.menu li:hover a:after
+{
+    width:60%;
+    transform:translateX(100%);
+}
+
+#slider,.wrap,.slide-content 
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 60vh;
+    overflow-x: hidden;
+    box-shadow:inset 0px 5px 10px,0px 5px 10px;
+}
+
+.wrap 
+{
+    position: relative;
+}
+
+.slide 
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1 {background-image: url("http://www.selectantenna.com/wp-content/uploads/2018/02/slide1.jpg");}
+.slide2 {background-image: url("http://www.selectantenna.com/wp-content/uploads/2018/02/slide2.jpg");}
+.slide3 {background-image: url("http://www.selectantenna.com/wp-content/uploads/2018/02/slide3.jpg");}
+.slide4 {background-image: url("http://www.selectantenna.com/wp-content/uploads/2018/02/slide4.jpg");}
+
+.slide-content 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/*animation:slider 20s infinite reverse;
+@keyframes slider
+{
+    0%{background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg"); background-size: 100% 60vh;}
+    35%{background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");background-size: 100% 60vh;}
+    75%{background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");background-size: 100% 60vh;}
+    100%{background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg"); background-size: 100% 60vh;}
+}*/
+
+.arrow 
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#arrow-left
+{
+    border-width: 30px 35px 30px 0;
+    border-color: transparent rgba(224, 223, 223, 0.671) transparent transparent;
+    left: 0;
+    margin-left: 5px;
+}
+
+#arrow-right 
+{
+    border-width: 30px 0 30px 35px;
+    border-color: transparent transparent transparent rgba(224, 223, 223, 0.671);
+    right: 0;
+    margin-right: 5px;
+}
+
+.box
+{
+    margin-left:46%;
+    position: absolute;
+    margin-top: -3%;
+    display: inline-flex;
+    height:20px;
+}
+
+.box .button
+{
+    width:13px;
+    height:13px;
+    background-color: rgba(224, 223, 223, 0.671);
+    margin:7px;
+    border-radius: 50%;
+}
+
+.box .button:hover
+{
+    background-color: rgb(128,228,192);
+    cursor: pointer;
+}
+.bottom
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    width:74%;
+    height:1200px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.copy
+{
+    width: 100%;
+    height:40px;
+    background-color: rgba(0, 0, 0, 0.74);
+    text-align: center;
+    padding-top:1%;
+    font-size: 18px;
+}
+.copy .span_a
+{
+    color:rgba(172, 172, 172, 0.808);
+}
+.copy .span_b a
+{
+    text-decoration: none;
+    color:rgb(231, 229, 229);
+}
+.copy .span_b a:hover
+{
+    color:rgb(46, 197, 126);
+}

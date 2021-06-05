@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products</title>
+</head>
+<body>
+    {{>header}}
+<header>
+    <h1>PRODUCTS</h1>
+    <div class="selectan">
+        <a href="index">Select Antenna  </a> > Products
+    </div>
+</header>
+    <div class="bottom">
+        {{>left}}
+        <div class="right_b">
+            <div class="image">
+                <a class="img1" href="#"  onmouseover="picview1()" onmouseout="picview1()">
+                    <img id="dbi16" src="/image/16antenna.jpg" alt="image" style="opacity: 0.6;"/>
+                    <p id="pdbi16" style="color:black;">16 DBI MIMO SECTOR</p>
+                </a>
+                <a class="img2" href="#"  onmouseover="picview2()" onmouseout="picview2()">
+                        <img id="dbi29" src="/image/29antenna.jfif" alt="image" style="opacity: 0.6;"/>
+                        <p id="pdbi29" style="color:black;">29 DBI MIMO GRID ANTENNA</p>
+                </a>
+                <a class="img3" href="#"  onmouseover="picview3()" onmouseout="picview3()">
+                        <img id="dbi5" src="/image/5antenna.jfif" alt="image" style="opacity: 0.6;"/>
+                        <p id="pdbi5" style="color:black;">ELITE 5 MIMO</p>
+                </a>
+                <a class="img4" href="#"  onmouseover="picview4()" onmouseout="picview4()">
+                        <img id="dbi4" src="/image/5elite.jfif" alt="image" style="opacity: 0.6;"/>
+                        <p id="pdbi4" style="color:black;">ELITE 5 MIMO</p>
+                </a>
+                <script src="/js/img.js"></script>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+</html>

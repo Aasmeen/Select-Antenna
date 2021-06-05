@@ -1,0 +1,40 @@
+header
+{
+    width:100%;
+    height:130px;
+    box-shadow: 0px 5px 5px;
+    background-image: url("http://www.selectantenna.com/wp-content/uploads/2018/02/slide2.jpg");
+    box-shadow: inset 0px 0px 50px,inset 0px -20px 140px,0px 5px 10px;
+}
+h1
+{
+    padding:0px;
+    margin:0px;
+    color:white;
+    opacity: 1;
+    text-align: center;
+    padding-top:2%;
+    padding-bottom:0.5%;
+    font-weight: 100;
+    font-size: 28px;
+}
+.selectan
+{
+    font-size:18px;
+    width:100%;
+    color:white;
+    text-align:center;
+}
+.selectan a
+{
+    text-decoration: none;
+    margin-right:7px;
+    color:rgb(223, 219, 219);
+    opacity: 0.7;
+}
+.selectan a:hover
+{
+    opacity:1;
+    color:white;
+    cursor: pointer;
+}
