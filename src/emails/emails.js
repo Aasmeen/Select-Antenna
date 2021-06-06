@@ -12,8 +12,8 @@ const sendEmail = (email,text)=>{
         text: `We will get back to you soon. Thank You!!`
     })  
     sgmail.send({
-        to: 'process.env.EMAIL',
-        from: 'process.env.EMAIL',
+        to: process.env.EMAIL,
+        from: process.env.EMAIL,
         subject: 'Select Antenna Contact Us',
         text: `From ${email} : ${text}`
     })
