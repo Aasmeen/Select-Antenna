@@ -5,6 +5,7 @@ const sendgridAPIKey = process.env.API_KEY;
 sgmail.setApiKey(sendgridAPIKey);
 
 const sendEmail = (email,text)=>{
+    console.log(email+" "+text);
     sgmail.send({
         to: email,
         from: process.env.EMAIL,
